@@ -8,6 +8,7 @@ from django.utils import timezone()
 class Blogpost(models.Model):
     blog_title = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')
+    content = models.CharField(max_length=1000)
     
     def __str__(self):
         return self.blog_title

@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: 200;
+	font-family: "Lucida Console";
+	
+}
+
+* a{
+	text-decoration: none;
+	color: BlueViolet;
+}
+
+html {
+	height: 100%;
+	background-color: Black;
+	font-size: 16px;
+}
+
+body {
+	background-color: rgba(0,0,0,0.9);
+	min-width: 700px;
+	max-width: 1000px;
+	margin: auto;
+	height: 100%;
+	border-left: 2px solid rgb(50,50,50);
+	border-right: 2px solid rgb(50,50,50);
+	border-top: 1px solid rgb(50,50,50);
+	border-bottom: 1px solid rgb(50,50,50);
+}
+
+h1 {
+	color: White;
+	text-align: center;
+	margin: 1.25rem;
+	font-size: 3.0rem;
+	background-color: rgba(0,0,0,0);
+}
+
+.navigation {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: rgb(50,50,50);
+}
+
+.navigation ul {
+    list-style-type: none;
+	text-align: center;
+	background-color: rgb(50,50,50);
+} 
+
+.navigation li {
+	display: inline;
+	background-color: rgb(50,50,50);
+}
+
+.navigation a {
+	color: Lime;
+	border: 2px solid Black;
+	border-radius: 20px;
+	padding: 5px 5px 5px 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: Black;
+	font-size: 1.25rem;
+}
+
+.navigation a:hover {
+	background-color: Lime;
+	border: 2px solid Lime;
+	color: Black;
+	font-weight: 400;
+}
+
+.about, .blogs, .projects, .connect {
+	width: 75%;
+	min-width: 90%;
+	margin: auto;
+}
+
+* h2 {
+	color: White;
+	margin: 25px 0px;
+	font-size: 2.0rem;
+}
+
+* p {
+	font-size: 1.0rem;
+	color: White;
+}
+
+.connect ul {
+	list-style-type: none;
+	font-size: 1.5rem;
+	width: 90%;
+	margin: auto;
+}

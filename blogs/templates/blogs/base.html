@@ -1,0 +1,19 @@
+{% load static %}
+
+<html>
+	<head>
+		<link rel="icon" href="{% static 'images/Rubiks_Cube.ico' %}"/>
+		<title>
+            Dylan Staatz - {% block title %}{% endblock %}
+        </title>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+		
+	</head>
+	<body>
+        <div class="content">
+			{% block content %}
+            
+            {% endblock %}
+		</div>
+	</body>
+</html>
